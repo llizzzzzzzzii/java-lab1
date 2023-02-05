@@ -29,7 +29,6 @@ public class Main {
                 a.create(i,j,l);
             }
         }
-//        a.printMatr();
         System.out.println("vv");
         complexMatrix b=new complexMatrix(x1,y);
         for (int i=0;i<x1;i++){
@@ -40,7 +39,6 @@ public class Main {
                 b.create(i,j,l);
             }
         }
-//        b.printMatr();
         a.multi(b);
     }
 }
